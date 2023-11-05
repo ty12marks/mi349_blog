@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header>
@@ -15,16 +16,22 @@
         </nav>
     </header>
     <main>
-        <form action="#">
-            <label for="name">Name: Tyler Marks</label>
-            <input type="text" id="name" name="name" required><br><br>
-            <label for="email">Email Address: Loki22@gamil.com</label>
-            <input type="email" id="email" name="email" required><br><br>
-            <label for="reason">Reason for Contact: Want to get your favorite show or movie reviewed? Send it in to me</label>
+        <form action="#" id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required><br><br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="your.email@example.com" required><br><br>
+            <label for="reason">Reason for Contact:</label>
+            <select id="reason" name="reason">
+                <option value="review_request">I want to request a review</option>
+                <option value="interview_request">I'm interested in an interview</option>
+                <option value="general">General inquiry</option>
+            </select><br><br>
             <label for="comments">Comments:</label><br>
-            <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Your message..."></textarea><br><br>
             <input type="submit" value="Submit">
         </form>
     </main>
 </body>
 </html>
+
