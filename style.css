@@ -1,0 +1,53 @@
+/* Type Selector */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Class Selector */
+.article-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* ID Selector */
+#sidebar {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Layout Modifications */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-column {
+    width: 50%;
+}
+
+/* Global Layout */
+.main-content {
+    width: 70%;
+    float: left;
+}
+
+.sidebar {
+    width: 30%;
+    float: left;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Additional Styles as Needed */
